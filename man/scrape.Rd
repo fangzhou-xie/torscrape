@@ -4,14 +4,7 @@
 \alias{scrape}
 \title{scrape webpages with Tor proxy}
 \usage{
-scrape(
-  urls,
-  async = FALSE,
-  max_retry = 3,
-  wait = 0.1,
-  random_ua = TRUE,
-  callback = NULL
-)
+scrape(urls, async = FALSE, max_retry = 3, random_ua = TRUE, callback = NULL)
 }
 \arguments{
 \item{urls, }{character vector, a character vector of urls to be scraped}
@@ -19,8 +12,6 @@ scrape(
 \item{async, }{bool (default FALSE), to use async request or not}
 
 \item{max_retry, }{int (default 5), how many times to allow for repeating}
-
-\item{wait, }{float (default 0.1), wait time per call}
 
 \item{random_ua, }{bool (default TRUE), whether to use Randomuseragent::random_useragent() or not}
 
