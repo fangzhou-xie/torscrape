@@ -44,14 +44,7 @@
     </div>
 
     <div id="ref-usage">
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="fu">scrape</span><span class="op">(</span>
-  <span class="va">urls</span>,
-  async <span class="op">=</span> <span class="cn">FALSE</span>,
-  max_retry <span class="op">=</span> <span class="fl">3</span>,
-  wait <span class="op">=</span> <span class="fl">0.1</span>,
-  random_ua <span class="op">=</span> <span class="cn">TRUE</span>,
-  callback <span class="op">=</span> <span class="cn">NULL</span>
-<span class="op">)</span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="fu">scrape</span><span class="op">(</span><span class="va">urls</span>, async <span class="op">=</span> <span class="cn">FALSE</span>, max_retry <span class="op">=</span> <span class="fl">3</span>, random_ua <span class="op">=</span> <span class="cn">TRUE</span>, callback <span class="op">=</span> <span class="cn">NULL</span><span class="op">)</span></code></pre></div>
     </div>
 
     <div id="arguments">
@@ -62,8 +55,6 @@
 <dd><p>bool (default FALSE), to use async request or not</p></dd>
 <dt>max_retry, </dt>
 <dd><p>int (default 5), how many times to allow for repeating</p></dd>
-<dt>wait, </dt>
-<dd><p>float (default 0.1), wait time per call</p></dd>
 <dt>random_ua, </dt>
 <dd><p>bool (default TRUE), whether to use Randomuseragent::random_useragent() or not</p></dd>
 <dt>callback, </dt>
