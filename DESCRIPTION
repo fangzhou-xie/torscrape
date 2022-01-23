@@ -1,0 +1,21 @@
+Package: torscrape
+Type: Package
+Title: Scrape Webpages using Tor Services
+Version: 0.0.1
+Authors@R: 
+    c(person(given = "Fangzhou", family = "Xie", role = c("aut", "cre"), 
+    email = "fangzhou.xie@rutgers.edu", comment = c(ORCID = "0000-0001-7702-093X")))
+Maintainer: Fangzhou Xie <fangzhou.xie@rutgers.edu>
+Description: Provide serial and async request methods for web scraping with Tor Proxy.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    Randomuseragent,
+    xml2,
+    fs,
+    readr,
+    curl,
+    purrr,
+    tibble
+RoxygenNote: 7.1.2
